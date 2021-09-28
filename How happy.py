@@ -5,4 +5,3 @@ elif 4 <= q <= 7:
     print("cool")
 else:
     print("nice")
-        
