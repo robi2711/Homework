@@ -1,0 +1,53 @@
+# MAIN
+light2 = 0
+radio.set_group(125)
+
+def on_forever():
+    global light2
+    if input.light_level() > 60:
+        basic.show_leds("""
+            # . # . #
+                        . # # # .
+                        # # # # #
+                        . # # # .
+                        # . # . #
+        """)
+        light2 += 1
+        if input.sound_level() > 50:
+            light2 = 0
+    else:
+        basic.show_leds("""
+            # # # . .
+                        . # # # .
+                        . . # # .
+                        . # # # .
+                        # # # . .
+        """)
+        light2 = 0
+    if light2 > 10:
+        radio.send_number(0)
+basic.forever(on_forever)
+
+
+
+
+
+
+
+
+
+
+# CHILD
+def on_received_number(receivedNumber):
+    if receivedNumber == 0:
+        basic.show_leds("""
+            # . . . #
+                        . # . # .
+                        . . # . .
+                        . # . # .
+                        # . . . #
+        """)
+        basic.clear_screen()
+radio.on_received_number(on_received_number)
+
+radio.set_group(125)
