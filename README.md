@@ -15,6 +15,5 @@ Or just use lightshot
 
 
 
-DISCLAMER: If anyone from my computer science class just so happens to stumble across my homework and wants to copy...  
+DISCLAMER: If anyone from my computer science class just so happens to stumble across my homework and wants to copy...                                                             
 its your grades not mine.
-Oh and general rule is dont copy something you don't understand cuz then you'll just not get what the code is for.
