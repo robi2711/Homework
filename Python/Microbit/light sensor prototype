@@ -1,0 +1,73 @@
+# MAIN
+def on_button_pressed_a():
+    global a, b
+    a = True
+    b = False
+    while a:
+        radio.send_number(100)
+        basic.pause(5000)
+input.on_button_pressed(Button.A, on_button_pressed_a)
+
+def on_button_pressed_b():
+    global b, a
+    b = True
+    a = False
+    while b:
+        radio.send_number(200)
+        basic.pause(5000)
+input.on_button_pressed(Button.B, on_button_pressed_b)
+
+def on_received_value(name, value):
+    if name == "light":
+        if value > 100:
+            basic.show_string("On")
+        else:
+            basic.show_string("Off")
+    elif name == "sound":
+        if value < 50:
+            basic.show_string("Q")
+        else:
+            basic.show_string("N")
+    else:
+        basic.show_leds("""
+            . . . . .
+                        . # . # .
+                        . . . . .
+                        . # # # .
+                        . . . . .
+        """)
+radio.on_received_value(on_received_value)
+
+b = False
+a = False
+radio.set_group(125)
+
+def on_forever():
+    pass
+basic.forever(on_forever)
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#CHILD
+def on_received_number(receivedNumber):
+    if receivedNumber == 100:
+        radio.send_value("light", input.light_level())
+    elif receivedNumber == 200:
+        radio.send_value("sound", input.sound_level())
+    else:
+        pass
+radio.on_received_number(on_received_number)
+
+radio.set_group(125)
+
+def on_forever():
+    pass
+basic.forever(on_forever)
+
+
+
+
+
