@@ -1,0 +1,12 @@
+Robert
+I programmed most of the bot. At the start we all decided what idea to do at the start and  ended up choosing a light sensor. Personally I wanted to do this because there is a lot of electricity that is being wasted and i feel like due to this CO2 crisis that is affecting us and nearly all the world. Another reason is because some older folk do not have the same physical capabilities as they used to. I feel it is important to take their lives and money into consideration because less developed countries such as Romania has an extremely low pension. Electricity being misused can lead to a pretty big electric bill at the end of their term and I dont think anyone would want that. Thats the the reason me and my group decided to make a light sensor. I researched a lot of the Microbit documentation for Python and Javascript to see if there was anything I could use. I also decided to mess around with radio groups and found that it was quite simple. Near the end I decided to work on a prototype to be able to pair multiple microbits together and cycle throught the light level and noise level with the A and B buttons respectevly. This was not successful but I would like to come back to this in the future and try to fix some of ther problems I encounter. Overall I was quite happy with what I achieved in this project and I would love to learn more. 
+
+
+
+
+IDK if we added what it inputs and outputs:::
+input:
+Sound
+Light
+Output:
+LED
