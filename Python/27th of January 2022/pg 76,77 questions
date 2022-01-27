@@ -1,0 +1,23 @@
+1. A text file contains any number or string and is not limited
+2. .txt
+3. A code that allows a permenant change to the system
+4. Python makes it automatically
+5. provides an error
+6. 2
+7. name of the file
+8. what you want to do with the file,  "w" write to the file, "a" append to the file, "r" read from the file
+9. it provides an error message
+10. file.close
+11. It is not automatically separated
+12. Comma-separated-values
+13. .csv
+14. It is easily separated with commas
+15. It does not have a limit, it can easily be read and sorted.
+16. float or int followed by a comma... 3, 4, 5, 6, 7, 8,
+17. delimiter is a character that is used to separate items. tabs.
+18. comma
+19. string
+20. split creates a list of split items from the csv file
+21. int
+22. It allows us to convert the data to a list and then iterate through it and apply operates or functions to each item
+23. So that the data is separated and we cna begin to get actual information from the data. This list comprehension allows us to sort it, get the average, mean or anything else with the data and can provide us with good information
