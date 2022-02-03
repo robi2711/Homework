@@ -1,22 +1,4 @@
-"""
-a list is a variable that stores more than one item
-It is more neat and fast
-list1 = [1, 2]
-items
-list2 = []
-list
-1
-.count
-to start a list
-they can be changed
-22
-inserts 1 in the 13th space
-list4 = [1]
-list5 = [2]
-list4 + list5
-list4 * 4
-"""
-
+#pg 42 Tasks
 # Task 1
 a = 0
 List = []

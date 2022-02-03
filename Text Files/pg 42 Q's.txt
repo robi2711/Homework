@@ -1,0 +1,16 @@
+1. a list is a variable that stores more than one item
+2. It is more neat and fast
+3. list1 = [1, 2]
+4. items
+5. list2 = []
+6. list
+7. 1
+8. .count
+9. to start a list
+10. they can be changed
+11. 22
+12. inserts 1 in the 13th space
+13. list4 = [1]
+14. list5 = [2]
+15. list4 + list5
+16. list4 * 4

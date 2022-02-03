@@ -1,0 +1,10 @@
+1. for loops loop a specicific amout of time
+2. range()
+3. 12345
+4. start and end
+5. 0 to 7 not including 7
+6. step value
+7. range(x, x, -1)
+8. The word for, The word in, a colon
+9. variable that contains more than one item
+10. This means it can loop through a multi object variable such as a string or tuple.
