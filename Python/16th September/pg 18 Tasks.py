@@ -4,31 +4,32 @@ answer = int(input("what is you're age? > "))
 print(f"your age is {answer}")
 """
 #Q.2 and 3
-#a = 3.5
-#b = 2.8
-#op = input("""What would you like to do
-#+ = add
-#- = minus
-#* = multiply
-#/ = division
-#% = remainder
-#** = power
-#""")
-#if op == "+":
-#    print(a + b)
-#elif op == "-":
-#    print(a - b)
-#elif op == "*":
-#    print(a*b)
-#elif op == "/":
-#    print(a/b)
-#elif op == "%":
-#    print(a%b)
-#elif op == "**":
-#    print(a**b)
-#else:
-#    print("Im not sure what that means!")
-
+"""
+a = 3.5
+b = 2.8
+#op = input("What would you like to do\n
++ = add\n
+- = minus\n
+* = multiply\n
+/ = division\n
+% = remainder\n
+** = power\n
+")
+if op == "+":
+    print(a + b)
+elif op == "-":
+    print(a - b)
+elif op == "*":
+    print(a*b)
+elif op == "/":
+    print(a/b)
+elif op == "%":
+    print(a%b)
+elif op == "**":
+    print(a**b)
+else:
+    print("Im not sure what that means!")
+"""
 #Q.4
 """
 c = int(input("how many degrees? > "))
