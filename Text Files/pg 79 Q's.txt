@@ -1,0 +1,9 @@
+1. To ensure data is good quality
+2. missing data, data that is out of range
+3. poor validation, manual entry
+4. bubble sort, quick sort
+5. If the data is not needed or completely off(eg. string data when int is needed)
+6. It might have other data that corresponds to it, throwing the index off
+7. replacing errors with a substitute
+8. Finds the errorous data and replaces it with the mean or average.
+9.
