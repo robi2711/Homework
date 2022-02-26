@@ -1,0 +1,12 @@
+1. The speed at which a code can be written to analize data
+2. Mean and Median
+3. import statistics
+4. The mean is the average
+5. Find the middle number
+6. you get the average of the 2 middle number
+7. The number of times the number occurs
+8. The value that occurs most often
+9. How left skewed or right skewed a data set is
+10. The data is leaning towards a group, the frequency is bigger on one side
+11. It means it is above average
+12. mean is less than the mode

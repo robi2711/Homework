@@ -1,0 +1,17 @@
+1. Visualisation helps us see the data in a human readable way
+2. matplotlib is a module that lets us plot data and visualise it
+3. Line graph
+4. plt.plot plots the data and does not show it while plt.show shows the data after it has been plotted
+5. Magnifying glass zooms in and home button returns to the original postition
+6. Cannot deiffer between data, a bar chart or histogram might be better
+7. first is the list input and second is the way the user wants it to be plotted
+8. How a line is displayed ie. colour and line style
+9. y--
+10. ro
+11. It will stay the same as the list name
+12. they all require 2 args
+13. no it does it automatically for you
+14. 
+15. To help the user understand what they are looking at
+16. It takes a list as its argument
+17. The graph will be extremely big and annoying to use

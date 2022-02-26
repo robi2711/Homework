@@ -1,0 +1,1 @@
+#The microbit was covered by a finger and the temp went a bit up, then the finger was taken away and the light level shot up.
