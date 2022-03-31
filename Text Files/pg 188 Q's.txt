@@ -1,0 +1,4 @@
+1. A nested conditional is a conditional inside another conditional
+2. 
+3. if name == "Robert" or cool == True:
+	print(hello)
