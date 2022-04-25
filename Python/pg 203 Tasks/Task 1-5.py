@@ -20,3 +20,5 @@ def floor_divide(num1, num2):
         return False
 
 #5
+def countList(listInput, searchQuery):
+    listInput.index()
