@@ -1,1 +1,16 @@
-
+1. If you want to change something you have to change it everywhere, it is time consuming
+2. A function is a task that can be carried out by the computer
+3. If we want to change something we only have to change it once in the def, args make it easy to use the code for different things
+4. def __():
+5. Defining a function doesnt run it, while calling it will run the function
+6. We must specify if it has any arguments and specify if it should return a value
+7. Anything outside of defs that runs without it having to be called in the code
+8. An argument is a variable that can be specified when the function is called
+9. It makes the code easy to change to ehat you want it to be, also allows user input
+10. A suitable name, the args, the body of the function
+11. Functions should be meaningful and with lowercase letters
+12. If multiple variables should be changed like height or weight
+13. The volume of a cylinder
+14. If height is specified as the first argument and you put it in on the second then you would be inputting the wrong height
+15. Functions are usually specified at the top of the code and if you have to constantly scroll through the code it makes it harder to read
+16. They are usefull because it doesnt matter what order you specify the arguments in.
