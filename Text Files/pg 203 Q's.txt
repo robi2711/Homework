@@ -1,0 +1,4 @@
+we can use the return value to calculate other things
+return
+we can see if something is true or false
+A suitable name for the function, the arguments, the body of the code, the value it will return
