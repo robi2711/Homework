@@ -21,4 +21,8 @@ def floor_divide(num1, num2):
 
 #5
 def countList(listInput, searchQuery):
-    listInput.index()
+    value = 0
+    for item in listInput:
+        if item == searchQuery:
+            value += 1
+    return value
