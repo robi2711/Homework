@@ -26,3 +26,12 @@ def countList(listInput, searchQuery):
         if item == searchQuery:
             value += 1
     return value
+
+#7
+def tempChange(C, F):
+    if F == 0:
+        x = (C*1.8)+32
+        return x
+    elif C == 0:
+        x = (F-32)*0.5666
+        return x
