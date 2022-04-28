@@ -35,3 +35,13 @@ def tempChange(C, F):
     elif C == 0:
         x = (F-32)*0.5666
         return x
+
+#8
+def foodCost(animal, gram):
+    gram = gram/1000
+    if animal.upper() == "CAT":
+        out = f"{gram*5*21} EURO"
+        return out
+    elif animal.upper() == "HAMSTER":
+        out = f"{gram*3*21} EURO"
+        return out
