@@ -1,0 +1,11 @@
+1. To make sure there is nothing wrong with the code when it is released
+2. The smallest component in the code
+3. They are automated tests to test the code
+4. Unit testers
+5. It is faster and less expensive
+6. Multiple tests at once
+7. 
+8. No because it would be hard to read and also if we need to change something we must change it twice
+9. use a for loop
+10. We use multiple py files and call them something like test
+11. fast, bugs can be identified, provides documentation
