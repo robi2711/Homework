@@ -1,0 +1,11 @@
+1. Recursion means breaking the problem down into subsetsof the same problem
+2. A recusrsive function is a function that calls itself
+3. It will give an error that the maximum recursion depth of 1000 has been reached
+4. base case
+5. recursive depth is the amount of times the function will call itself
+6. 1000
+7. Defining the rucursive function
+Defining the base case
+Specifying the value that must be returned when base case is reached
+8. On the way back up
+9. Iwl im not bothered recursion is better and idc
