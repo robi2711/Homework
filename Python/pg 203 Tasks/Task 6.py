@@ -1,5 +1,5 @@
 def RRP(rrp, discount):
-    x = f"{discount}%: {(rrp-(rrp*(discount/100)))*rrp}"
+    x = f"{discount}%: {(rrp-(rrp*(discount/100)))}"
     return x
 
 discountList = [10, 20, 30, 40, 50, 60]
