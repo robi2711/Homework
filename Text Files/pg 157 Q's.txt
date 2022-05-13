@@ -1,0 +1,18 @@
+An algorithm is a step-by-step process to solve a problem
+- be unambiguous
+- consist a finite number of steps
+Algorithms can be described using natural language and flowcharts
+Pseudocode is code explained by simple language 
+The purpose of the program is to represent the instructions in an algorithm in such a way that they can be executed by a computer
+Elegance is a term that can be applied to an algorithm or an answer
+The best-case scenario is when there is the least amount of work, the worst-case scenario is when there is the greatest amount of work.
+Because the worst-case scenario is the option that requires the most time and therefore is the most conservative
+Algorithmic time complexity measures how long an algorithm would take to complete, given an input size of n
+The only factor they consider is n
+An algorithm has linear complexity if the time taken increases linearly with the increase in the number of inputs
+“Big O” notation is a special notation for describing algorithmic time complexity
+Equivalence classes group algorithms that have an equivalent complexity
+The O(n) class represents linear algorithmic complexity
+The O(1) class represents a constant algorithmic complexity
+The (On²) class represents a quadratic algorithmic complexity
+Equivalence classes are important because they allow us to see which algorithms are in the same equivalence class
