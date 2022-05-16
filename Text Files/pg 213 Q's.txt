@@ -1,0 +1,7 @@
+1. Key
+2. It goes through every item in the list, comparing it to the key
+3. Binary search needs the list to be sorted.
+4. half-interval search
+5. It gets the middle value in the list and sees if the key is bigger or lower, if it is lower than it will focus on the first half of the list etc.
+6. the key and the half-interval value
+7. the middle number is the half-interval index
