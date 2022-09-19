@@ -1,0 +1,10 @@
+pg 165 Question 1-7
+1. A model is a physical representation of a physical system or process.
+2. Models are used to stimulate wht is happening in the system that the model represents
+3. Computer modelling is any activity that involes using software abstractions to represent a real or virtual problem
+4. A model is a block of code or logic that takes in an argument or multiple arguments and returns a result or set of results
+Scenarios are conditions or situations in the environment that can change.
+Stimulation refers to running a model to allow different scenarios to be tested
+5. This function can have number of arguments bot only one expression, whic is evaluated and returned.
+6. It might need another variable to compare off of.
+7. Covid-19
