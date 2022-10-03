@@ -4,13 +4,6 @@ def monthlyRepayment(principalAmount, interest, years):
     monthlyAmount = (finalAmount/ (years*12))
     return round(monthlyAmount, 2)
 
-def plot(inp, typ, nam, xlab, ylab):
-    plt.plot(inp, typ)
-    plt.xlabel(xlab)
-    plt.ylabel(ylab)
-    plt.title(nam)
-    plt.show()
-
 def fa(name, write):
     file = open(name, "a")
     file.write(write)
@@ -43,3 +36,6 @@ del tmp[-1]
 y = []
 for item in tmp:
     y.append(float(item))
+x_pos = [i for i, _ in enumerate(x)]
+plt.bar(x_pos, y)
+plt.show()
