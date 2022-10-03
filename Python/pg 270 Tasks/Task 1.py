@@ -29,18 +29,17 @@ def fr(name):
 f = "results.csv"
 fw(f, "")
 i = [0.032, 0.043, 0.037, 0.043, 0.044, 0.029, 0.028, 0.030]
-t = [6, 7, 4, 3, 4, 6, 7, 9]
+x = [6, 7, 4, 3, 4, 6, 7, 9]
 
 counter = 0
 while len(i) != 0:
-    print(str(monthlyRepayment(10000, i[0], t[0])))
-    fa(f, f"str(monthlyRepayment(10000, i[0], t[0])), ")
+    print(str(monthlyRepayment(10000, i[0], x[0])))
+    fa(f, f"{monthlyRepayment(10000, i[0], x[0])}," )
     del i[0]
-    del t[0]
+    del x[0]
 data = fr(f)
-data = data.split(", ")
-del data[-1]
-plt.bar(data, t, color='green')
-plt.xlabel("term")
-plt.ylabel("monthly repayment")
-plt.title("Loan Approval")
+tmp = data.split(",")
+del tmp[-1]
+y = []
+for item in tmp:
+    y.append(float(item))
