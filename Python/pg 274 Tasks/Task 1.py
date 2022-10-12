@@ -12,7 +12,7 @@ def playTenis(outlook, humidity, wind):
         else:
             return "Yes"
 tenisdict = {
-    "day": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"],
+    "R": ['No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No'],
     "O": ["Sunny", "Sunny", "Overcast", "Rain", "Rain", "Rain", "Overcast", "Sunny", "Sunny", "Rain", "Sunny", "Overcast", "Overcast", "Rain"],
     "H": ["High", "High", "High", "High", "Normal", "Normal", "Normal", "High", "Normal", "Normal", "Normal", "High", "Normal", "High"],
     "W": ["Weak", "Strong", "Weak", "Weak", "Weak", "Strong", "Strong", "Weak", "Weak", "Weak", "Strong", "Strong", "Weak", "Strong"]
@@ -20,8 +20,12 @@ tenisdict = {
 
 results = []
 counter = 0
-while counter != 13:
-    x = playTenis(tenisdict["O"[counter]], tenisdict["H"[counter]], tenisdict["W"[counter]])
+while counter != 14:
+    x = playTenis(tenisdict["O"][counter], tenisdict["H"][counter], tenisdict["W"][counter])
     results.append(x)
     counter += 1
 print(results)
+if results == tenisdict["R"]:
+    print("Accuracy = 100%")
+else:
+    print("not accurate L")
