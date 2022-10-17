@@ -1,0 +1,5 @@
+1. Agent based modelling involves building models to stimulate the actions and interactions of idividuals "agents" within an environment
+2. ABM is different to normal modelling because it can simulate multiple agents at once so that more data can be gained. For instance 100 thermostats can be used at once to gather more data
+3. ABM can help describe complex environments and also gather data faster
+4. Emergent behaviours are behaviours that are observed in the environment as a whole but that are not observed in the individual agents
+5. Tumor growth and supply chains
