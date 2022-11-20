@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 ## Basic start up of the code to reset data and split up the data needed
 ## switch between data 2 and 1 to get dates before and after 12 as a lucky number was implementated
-data = "data2.csv"
+data = "data1.csv"
 numbers = "numbers.csv"
 dates = "dates.csv"
 luckynum = "lucky.csv"
@@ -40,6 +40,8 @@ for x in dataIn:
     del data1[-1]
     for x in range(2):
         m.fa(luckynum, f"{data1[x]},")
+        
+        
 f = m.fr(numbers)
 dataList = f.split(",")
 del dataList[-1]
