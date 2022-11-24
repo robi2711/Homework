@@ -2,6 +2,7 @@ import myDef as m
 import matplotlib.pyplot as plt
 import random as rand
 
+
 ## Basic start up of the code to reset data and split up the data needed
 user = input("""----------------------- What would you like to do? --------------------------
 > data1 : All the data in the past 18 years of lotto plotted
@@ -11,6 +12,8 @@ user = input("""----------------------- What would you like to do? -------------
 > search: Allows the user to search for a number in the database
 ---------------------------------------------------------------------------------------
 > """)
+
+
 search = False
 if user == "data1":
     data = "data1.csv"
@@ -40,6 +43,8 @@ sorted_picks = []
 
 m.fw(luckynum, "")
 m.fw(numbers, "")
+
+
 if user == "random":
     m.fw(data, "")
     for x in range(lines):
@@ -52,7 +57,7 @@ if user == "random":
         m.fa(data, "\n")
 
 
-## Cleans up the data
+## Cleans up the data depending what option was picked
 dataIn = m.fr(data)
 dataIn = dataIn.split("\n")
 if user == "random":
@@ -99,6 +104,8 @@ else:
         for x in range(2):
             m.fa(luckynum, f"{data1[x]},")
 
+
+## Using the search function does not need to plot any data
 if search:
     found = False
     f = m.fr(numbers)
