@@ -1,0 +1,13 @@
+1.Software development is a term used to refer to the wide range of methods that are used in the process of developing software.
+2.A systematic process involves the definition of a problem, the searching of alternative solutions in general through models, and the selection of the best alternative that will eventually decide the course of action.
+3.Two goals of software development processes are meeting the needs of the users and keeping the costs of production within budget.
+4The term agile is used to describe a flexible and collaborative way of working on software projects.
+5.Iteration is when obstacles or problems are encountered, it is considered good practise to go back to a prior step and work through the process again. 
+6.Three key features in an agile approach to software are: frequent and close cooperation between developers and users, a willingness to respond to changing user requirements at any time and producing working software early in a project to get feedback from users.
+7.A waterfall approach differs from an agile approach because it is more formal and less flexible, agile is an iterative process while waterfall is staged, or linear.
+8.Two features of a waterfall approach to software development are that formal documents are produced at the end of each stage, which inform the next stage and that no new stage should begin until the last stage was reviewed.
+9.Two arguments in favour of the waterfall approach are that spending time finding problems early in the project means that they are less likely to be needed to fix later on in the project and the progress of the project can be monitored more clearly and easily.
+10.The six stages of the software development process are investigate, plan, design, create, evaluate and document.
+11.Three areas that should be investigated when trying to understand and define a problem during the Investigate stage of software development are who the users are, how many groups of users exist and the needs of each user group.
+12.Two methods of gathering and recording information during the Investigate stage are carrying out interviews with users and asking users to complete questionnaires. 
+-carla Nichifor
